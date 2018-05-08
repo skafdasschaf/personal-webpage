@@ -15,6 +15,24 @@
 
     <script src="js/modernizr.js"></script>
     <link rel="shortcut icon" href="favicon.png">
+    <script type="text/javascript">
+        var imageURLs = [
+            "images/profilepics/dark.jpg",
+            "images/profilepics/escher.jpg",
+            "images/profilepics/gray.jpg",
+            "images/profilepics/kandinsky.jpg",
+            "images/profilepics/original.jpg",
+            "images/profilepics/picasso.jpg",
+            "images/profilepics/sadness.jpg"
+        ];
+        function getImageTag() {
+            var img = '<img class=\"profile-pic\" src=\"';
+            var randomIndex = Math.floor(Math.random() * imageURLs.length);
+            img += imageURLs[randomIndex];
+            img += '\" alt=\"That\'s me!\"/>';
+            return img;
+        }
+    </script>
 </head>
 
 <body>
@@ -41,6 +59,7 @@
             <ul class="social">
                 <li><a href="http://www.facebook.at/wolfgang.skala"><i class="fa fa-facebook"></i></a></li>
                 <li><a href="https://twitter.com/skafdasschaf"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="https://linkedin.com/in/wolfgang-skala"><i class="fa fa-linkedin"></i></a></li>
                 <li><a href="https://www.researchgate.net/profile/Wolfgang_Skala"><i class="ai ai-researchgate"></i></a></li>
                 <li><a href="http://orcid.org/0000-0002-7350-4045"><i class="ai ai-orcid"></i></a></li>
                 <li><a href="http://imslp.org/wiki/Category:Skala,_Wolfgang"><i class="fa fa-music"></i></a></li>
@@ -80,7 +99,8 @@
     
     <div class="row">
         <div class="three columns">
-            <img class="profile-pic" src="images/profilepic.jpg" alt="" />
+            <!--<img class="profile-pic" src="images/profilepic.jpg" alt="" />-->
+            <script type="text/javascript">document.write(getImageTag());</script>
         </div>
         <div class="nine columns main-col">
             <h2>About Me</h2>
@@ -322,32 +342,37 @@
             <h5>Peer-reviewed publications</h5>
             <ol reversed>
                 <li>
-                    <span class="self">Skala W</span>, Wohlschlager T, Senn S, Huber GE, and Huber CG (2018).<br />
+                    Wohlschlager T, Scheffler K, Forstenlehner IC, <span class="self">Skala W</span>, Senn S, Damoc E, Holzmann J, and Huber CG.<br />
+                    <a href="https://doi.org/10.1038/s41467-018-04061-7" class="title">Native mass spectrometry combined with enzymatic dissection unravels glycoform heterogeneity of biopharmaceuticals..</a><br />
+                    <span class=journal>Nat. Commun.</span> 9(1), 1713 (2018).</i> <i class="ai ai-open-access"></i>
+                </li>
+                <li>
+                    <span class="self">Skala W</span>, Wohlschlager T, Senn S, Huber GE, and Huber CG.<br />
                     <a href="https://doi.org/10.1021/acs.analchem.8b00019" class="title">MoFi – A software tool for annotating glycoprotein mass spectra by integrating hybrid data from the intact protein and glycopeptide level.</a><br />
-                    <span class=journal>Anal. Chem.</span> 2018 Apr 6 (Epub ahead of print)</i>
+                    <span class=journal>Anal. Chem.</span> 90(9), 5728–5736 (2018).</i>
                 </li>
                 <li>
-                    Guo S, <span class="self">Skala W</span>, Magdolen V, Briza P, Biniossek ML, Schilling O, Kellermann J, Brandstetter H, and Goettig P (2016).<br />
+                    Guo S, <span class="self">Skala W</span>, Magdolen V, Briza P, Biniossek ML, Schilling O, Kellermann J, Brandstetter H, and Goettig P.<br />
                     <a href="http://dx.doi.org/10.1074/jbc.M115.691097" class="title">A single glycan at the 99-loop of human kallikrein-related peptidase 2 regulates activation and enzymatic activity.</a><br />
-                    <span class=journal>J. Biol. Chem.</span> 291(2), 593–604. <i class="ai ai-open-access"></i>
+                    <span class=journal>J. Biol. Chem.</span> 291(2), 593–604 (2016). <i class="ai ai-open-access"></i>
                 </li>
                 
                 <li>
-                    <span class="self">Skala W</span>, Utzschneider DT, Magdolen V, Debela M, Guo S, Craik CS, Brandstetter H, and Goettig P (2014).<br />
+                    <span class="self">Skala W</span>, Utzschneider DT, Magdolen V, Debela M, Guo S, Craik CS, Brandstetter H, and Goettig P.<br />
                     <a href="http://dx.doi.org/10.1074/jbc.M114.598201" class="title">Structure-function analyses of human kallikrein-related peptidase 2 establish the 99-loop as master regulator of activity.</a><br />
-                    <span class="journal">J. Biol. Chem.</span> 289(49), 34267–34283. <i class="ai ai-open-access"></i>
+                    <span class="journal">J. Biol. Chem.</span> 289(49), 34267–34283 (2014). <i class="ai ai-open-access"></i>
                 </li>
                 
                 <li>
-                    Guo S, <span class="self">Skala W</span>, Magdolen V, Brandstetter H, and Goettig P (2014).<br />
+                    Guo S, <span class="self">Skala W</span>, Magdolen V, Brandstetter H, and Goettig P.<br />
                     <a href="http://dx.doi.org/10.1515/hsz-2014-0140" class="title">Sweetened kallikrein-related peptidases (KLKs): Glycan trees as potential regulators of activation and activity.</a><br/>
-                    <span class="journal">Biol. Chem.</span> 395(9), 959–976. <i class="ai ai-open-access"></i>
+                    <span class="journal">Biol. Chem.</span> 395(9), 959–976 (2014). <i class="ai ai-open-access"></i>
                 </li>
                 
                 <li>
-                    <span class="self">Skala W</span>, Goettig P, and Brandstetter H (2013).<br />
+                    <span class="self">Skala W</span>, Goettig P, and Brandstetter H.<br />
                     <a href="http://dx.doi.org/10.1016/j.jbiotec.2013.10.022" class="title">Do-it-yourself histidine-tagged bovine enterokinase: A handy member of the protein engineer’s toolbox.</a><br />
-                    <span class="journal">J. Biotechnol.</span> 168(4), 421–425. <i class="ai ai-open-access"></i>
+                    <span class="journal">J. Biotechnol.</span> 168(4), 421–425 (2013). <i class="ai ai-open-access"></i>
                 </li>
             </ol>
             
@@ -486,6 +511,7 @@
             <ul style="list-style-type:disc">
                 <li><i>Adlgasser</i>, Anton Cajetan: Missa in C AWV 1.02</li>
                 <li><i>Reiter</i>, Josef: Sextett <i>Per aspera ad astra</i> op. 133</li>
+                <li><i>Sengmillner</i>, Edmund: Quis Deus magnus (Ottobeuren, 1721)</li>
                 <li><i>Weiß</i>, Johann Baptist: Requiem in Es</li>
             </ul>
         </div>
@@ -501,7 +527,7 @@
             <ul class="copyright">
                 <li>&copy; Copyright 2018 Wolfgang Skala</li>
                 <li>Template: CeeVee by <a title="Styleshout" href="http://www.styleshout.com/">Styleshout</a></li>
-                <li>Last update: 11.04.2018</li>
+                <li>Last update: 2018-05-08</li>
             </ul>
             <p>Disclosure (§25 Mediengesetz): This website is privately provided and maintained by Wolfgang Skala, Humboldtstraße 12/B7, 5020 Salzburg.</p>
             <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#home"><i class="icon-up-open"></i></a></div>
