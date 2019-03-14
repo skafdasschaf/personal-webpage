@@ -345,7 +345,7 @@ ul#nav li.current a { color: #E5D341; } # new E5D341   old F06000
   	-webkit-animation: lilypond 2s ease;
 }
 .rproject {
-  	width: 60%;
+  	width: 80%;
   	-moz-animation: rproject 2s ease;
   	-webkit-animation: rproject 2s ease;
 }
@@ -369,7 +369,7 @@ ul#nav li.current a { color: #E5D341; } # new E5D341   old F06000
 }
 @-moz-keyframes rproject {
   0%   { width: 0px;  }
-  100% { width: 60%;  }
+  100% { width: 80%;  }
 }
 @-moz-keyframes html5css3 {
   0%   { width: 0px;  }
@@ -390,7 +390,7 @@ ul#nav li.current a { color: #E5D341; } # new E5D341   old F06000
 }
 @-webkit-keyframes rproject {
   0%   { width: 0px;  }
-  100% { width: 60%;  }
+  100% { width: 80%;  }
 }
 @-webkit-keyframes html5css3 {
   0%   { width: 0px;  }
