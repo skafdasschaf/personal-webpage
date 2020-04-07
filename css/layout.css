@@ -265,11 +265,12 @@ ul#nav li.current a { color: #E5D341; } # new E5D341   old F06000
 #cv .header-col { padding-top: 9px; }
 #cv .main-col { padding-right: 10%; }
 
-.education, .work {
+.work, .education {
    margin-bottom: 48px;
    padding-bottom: 24px;
    border-bottom: 1px solid #E8E8E8;
 }
+
 #cv .info {
    font: 16px/24px 'librebaskerville-italic', serif;
    color: #6E7881;
@@ -283,6 +284,15 @@ ul#nav li.current a { color: #E5D341; } # new E5D341   old F06000
 #cv .date {
    font: 15px/24px 'opensans-regular', sans-serif;
    margin-top: 6px;
+}
+#cv .grade {
+   font: 15px/24px 'opensans-regular', sans-serif;
+   margin-top: 6px;
+}
+
+.edu-row {
+	margin-bottom: 30px;
+    border-bottom-width: 0px;
 }
 
 /*----------------------------------------------*/

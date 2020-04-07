@@ -811,5 +811,7 @@ properly.
 
 
 
-
+.skills-bullets {
+	list-style-type: disc;
+}
 
